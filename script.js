@@ -48,6 +48,8 @@ document.querySelector(".pbtm").addEventListener("click",function(detail){
     }
     else{
         makeBubble()
+        Score -= 5
+        document.querySelector(".box3").textContent = Score
     }
 })
 
