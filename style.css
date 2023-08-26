@@ -1,0 +1,213 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "General Sans";
+    box-sizing: border-box
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #e6ffa2;
+}
+.panel{
+    overflow: hidden;
+    border-radius: 20px;
+    width: 85%;
+    height: 85%;
+    background-color: #f2f1dc;
+}
+.ptop{
+    width: 100%;
+    /* height: 100px; */
+    height: 10%;
+    background-color: #a9ca4c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elem{
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    gap: 20px;
+    border-bottom: 4px solid #f2f1dc;
+    border-top: 2px solid #f2f1dc;
+    border-left: 4px solid #f2f1dc;
+    border-right: 2px solid #f2f1dc;
+    border-radius: 9px;
+    transition: all ease 100ms;
+}
+.elem:hover{
+    border-bottom: 2px solid #f2f1dc;
+    border-top: 4px solid #f2f1dc;
+    border-left: 2px solid #f2f1dc;
+    border-right: 4px solid #f2f1dc;
+    border-radius: 9px;
+}
+.elem h4{
+    font-size: 30px;
+    color: #f2f1dc;
+    font-weight: 800;
+}
+.box{
+    height: 45px;
+    width: 40px;
+    padding: 0px 4px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    color: #f2f1dc;
+    /* background-color: #000;    */
+}
+.pbtm{
+    height: 90%;
+    width: 100%;
+    padding: 20px; 
+    flex-wrap: wrap;
+    display: flex;
+}
+.bubble{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #728f24;
+    color: aliceblue;
+    border-radius: 50%;
+}
+.bubble:hover{
+    background-color: #93b143;
+    cursor: pointer;
+}
+.end{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.end h1{
+    font-size: 50px;
+}
+.pscore{
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn{
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+@media (max-width:600px) {
+    .panel{
+        overflow: hidden;
+        border-radius: 10px;
+        width: 85%;
+        height: 93%;
+        background-color: #f2f1dc;
+    }
+    .ptop{
+        width: 100%;
+        /* height: 100px; */
+        height: 10%;
+        background-color: #a9ca4c;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .elem{
+        /* background-color: #fff; */
+        display: flex;
+        align-items: center;
+        padding: 0px 5px;
+        gap: 20px;
+        border-bottom: 2px solid #f2f1dc;
+        border-top: 1px solid #f2f1dc;
+        border-left: 2px solid #f2f1dc;
+        border-right: 1px solid #f2f1dc;
+        border-radius: 9px;
+        transition: all ease 100ms;
+    }
+    .elem:hover{
+        border-bottom: 2px solid #f2f1dc;
+        border-top: 1px solid #f2f1dc;
+        border-left: 2px solid #f2f1dc;
+        border-right: 1px solid #f2f1dc;
+        border-radius: 9px;
+    }
+    .elem h4{
+        font-size: 15px;
+        color: #f2f1dc;
+        font-weight: 800;
+    }
+    .box{
+        height: 45px;
+        width: 40px;
+        padding: 0px 4px;
+        display: flex;
+        font-size: 20px;
+        font-weight: 900;
+        align-items: center;
+        justify-content: center;
+        color: #f2f1dc;
+        /* background-color: #000;    */
+    }
+    .pbtm{
+        height: 90%;
+        width: 100%;
+        padding: 10px; 
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .bubble{
+        display: flex;
+        margin: 7px;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: #728f24;
+        color: aliceblue;
+        border-radius: 50%;
+    }
+    .bubble:hover{
+        background-color: #93b143;
+        cursor: pointer;
+    }
+    .end{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .end h1{
+        font-size: 50px;
+    }
+    .pscore{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .btn{
+        margin-top: 40px;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
