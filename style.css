@@ -168,6 +168,9 @@ html, body{
         /* background-color: #000;    */
     }
     .pbtm{
+        display:flex;
+        align-items: center;
+        justify-content: center;
         height: 90%;
         width: 100%;
         padding: 10px; 
